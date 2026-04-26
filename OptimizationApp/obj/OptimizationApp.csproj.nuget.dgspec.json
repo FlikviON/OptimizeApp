@@ -45,6 +45,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

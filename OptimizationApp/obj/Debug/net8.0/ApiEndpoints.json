@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OptimizationApp.Controllers.MapPathController",
+    "Method": "GenerateMap",
+    "RelativePath": "api/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "OptimizationApp.Models.GenerateMapRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32[][]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OptimizationApp.Controllers.MapPathController",
+    "Method": "ShortestPath",
+    "RelativePath": "api/shortest-path",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "OptimizationApp.Models.PathRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OptimizationApp.Models.PathResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

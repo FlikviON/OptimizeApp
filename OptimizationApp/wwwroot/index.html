@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск кратчайшего пути</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        td {
+            width: 32px;
+            height: 32px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #aaa;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .meadow {
+            background-color: #a3e4a3;
+        }
+
+        .swamp {
+            background-color: #b0a07c;
+        }
+
+        .mountain {
+            background-color: #8a8a8a;
+        }
+
+        .selected-a {
+            background-color: #ffb3b3;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+
+        .selected-b {
+            background-color: #b3b3ff;
+            border: 2px solid blue;
+            box-sizing: border-box;
+        }
+
+        .path-cell::after {
+            content: "";
+            display: block;
+            width: 16px;
+            height: 16px;
+            background-color: red;
+            border-radius: 50%;
+            margin: 0 auto;
+            border: 1px solid darkred;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin: 5px;
+            padding: 8px 12px;
+        }
+
+        .info {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .coords {
+            margin-top: 15px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .legend {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+            align-items: flex-start;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .legend-color {
+            width: 32px;
+            height: 32px;
+            border: 1px solid #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Поиск кратчайшего пути</h1>
+    <div class="controls">
+        <label>Размер n: <input type="number" id="size" value="10" min="1" max="50"></label>
+        <button id="generateBtn">Сгенерировать карту</button>
+        <button id="findPathBtn" disabled>Найти путь</button>
+    </div>
+    <div id="map"></div>
+    <div id="info" class="info"></div>
+
+    <div class="coords">
+        <div id="coordA"></div>
+        <div id="coordB"></div>
+    </div>
+
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color meadow"></div>
+            <span>Луг (скорость = 1.0)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color swamp"></div>
+            <span>Болото (скорость = 0.8)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color mountain"></div>
+            <span>Горы (скорость = 0.5)</span>
+        </div>
+    </div>
+
+    <script>
+        let mapData = null;
+        let n = 0;
+        let pointA = null, pointB = null;
+        let lastPath = [];
+
+        const biomeClasses = ['meadow', 'swamp', 'mountain'];
+
+        const generateBtn = document.getElementById('generateBtn');
+        const findPathBtn = document.getElementById('findPathBtn');
+        const sizeInput = document.getElementById('size');
+        const mapDiv = document.getElementById('map');
+        const infoDiv = document.getElementById('info');
+        const coordADiv = document.getElementById('coordA');
+        const coordBDiv = document.getElementById('coordB');
+
+        function updateCoordsDisplay() {
+            if (pointA) {
+                coordADiv.innerText = `A (${pointA.row}, ${pointA.col})`;
+            } else {
+                coordADiv.innerText = '';
+            }
+            if (pointB) {
+                coordBDiv.innerText = `B (${pointB.row}, ${pointB.col})`;
+            } else {
+                coordBDiv.innerText = '';
+            }
+        }
+
+        generateBtn.onclick = async () => {
+            const size = parseInt(sizeInput.value);
+            if (isNaN(size) || size < 1 || size > 100) {
+                alert('Размер от 1 до 100');
+                return;
+            }
+            try {
+                const res = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ size })
+                });
+                if (!res.ok) throw new Error('Ошибка генерации');
+                mapData = await res.json();
+                n = size;
+                pointA = null;
+                pointB = null;
+                lastPath = [];
+                findPathBtn.disabled = true;
+                updateCoordsDisplay();
+                renderMap();
+                infoDiv.innerText = '';
+            } catch (err) {
+                console.error(err);
+                alert('Не удалось сгенерировать карту');
+            }
+        };
+
+        function renderMap() {
+            if (!mapData) return;
+            let html = '<table>';
+            for (let i = 0; i < n; i++) {
+                html += '<tr>';
+                for (let j = 0; j < n; j++) {
+                    let cls = biomeClasses[mapData[i][j]];
+                    if (pointA && pointA.row === i && pointA.col === j) cls += ' selected-a';
+                    if (pointB && pointB.row === i && pointB.col === j) cls += ' selected-b';
+                    if (lastPath.some(p => p.row === i && p.col === j)) cls += ' path-cell';
+                    html += `<td class="${cls}" data-row="${i}" data-col="${j}"></td>`;
+                }
+                html += '</tr>';
+            }
+            html += '</table>';
+            mapDiv.innerHTML = html;
+
+            document.querySelectorAll('td').forEach(td => {
+                td.addEventListener('click', () => {
+                    const row = parseInt(td.dataset.row);
+                    const col = parseInt(td.dataset.col);
+                    if (pointA === null) {
+                        pointA = { row, col };
+                        pointB = null;
+                        lastPath = [];
+                        findPathBtn.disabled = true;
+                        updateCoordsDisplay();
+                        renderMap();
+                    } else if (pointB === null) {
+                        if (pointA.row === row && pointA.col === col) {
+                            alert('Точка B не может совпадать с A');
+                            return;
+                        }
+                        pointB = { row, col };
+                        lastPath = [];
+                        findPathBtn.disabled = false;
+                        updateCoordsDisplay();
+                        renderMap();
+                    } else {
+                        pointA = { row, col };
+                        pointB = null;
+                        lastPath = [];
+                        findPathBtn.disabled = true;
+                        updateCoordsDisplay();
+                        renderMap();
+                    }
+                });
+            });
+        }
+
+        findPathBtn.onclick = async () => {
+            if (!mapData || !pointA || !pointB) return;
+            try {
+                const request = {
+                    size: n,
+                    map: mapData,
+                    a: pointA,
+                    b: pointB
+                };
+                const res = await fetch('/api/shortest-path', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(request)
+                });
+                if (!res.ok) {
+                    const errText = await res.text();
+                    throw new Error(errText);
+                }
+                const result = await res.json();
+                lastPath = result.path;
+                renderMap();
+                infoDiv.innerHTML = '';
+            } catch (err) {
+                console.error(err);
+                alert('Ошибка при поиске пути: ' + err.message);
+            }
+        };
+
+        generateBtn.click();
+    </script>
+</body>
+</html>
