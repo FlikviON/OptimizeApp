@@ -1236,11 +1236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\My version\\OptimizationApp\\OptimizationApp\\OptimizationApp.csproj",
+      "projectUniqueName": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\OptimizationApp.csproj",
       "projectName": "OptimizationApp",
-      "projectPath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\My version\\OptimizationApp\\OptimizationApp\\OptimizationApp.csproj",
+      "projectPath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\OptimizationApp.csproj",
       "packagesPath": "C:\\Users\\fesaw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\My version\\OptimizationApp\\OptimizationApp\\obj\\",
+      "outputPath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fesaw\\AppData\\Roaming\\NuGet\\NuGet.Config",

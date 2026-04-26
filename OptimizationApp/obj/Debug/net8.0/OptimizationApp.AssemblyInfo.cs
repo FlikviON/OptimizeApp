@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OptimizationApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecd81fcfc0ff98708ec7bcd960c80f897c7a8edd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21c2bdd9abaa335d0ee26e80710fc00d0bfb7b55")]
 [assembly: System.Reflection.AssemblyProductAttribute("OptimizationApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OptimizationApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

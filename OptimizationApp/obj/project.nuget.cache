@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q5FLbwH3piI=",
+  "dgSpecHash": "OGcJGdCBOU8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\My version\\OptimizationApp\\OptimizationApp\\OptimizationApp.csproj",
+  "projectFilePath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\УНИВЕР\\6 семестр\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\OptimizationApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fesaw\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\fesaw\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
