@@ -121,15 +121,15 @@
     <div class="legend">
         <div class="legend-item">
             <div class="legend-color meadow"></div>
-            <span>Луг (скорость = 1.0)</span>
+            <span id="legend-meadow">Луг (скорость = 1.0)</span>
         </div>
         <div class="legend-item">
             <div class="legend-color swamp"></div>
-            <span>Болото (скорость = 0.8)</span>
+            <span id="legend-swamp">Болото (скорость = 0.8)</span>
         </div>
         <div class="legend-item">
             <div class="legend-color mountain"></div>
-            <span>Горы (скорость = 0.5)</span>
+            <span id="legend-mountain">Горы (скорость = 0.5)</span>
         </div>
     </div>
 
@@ -268,6 +268,27 @@
             }
         };
 
+        const biomeIdMap = { 'луг': 'legend-meadow', 'болото': 'legend-swamp', 'горы': 'legend-mountain' };
+        const biomeNameMap = { 'луг': 'Луг', 'болото': 'Болото', 'горы': 'Горы' };
+
+        async function loadLegend() {
+            try {
+                const res = await fetch('/api/settings');
+                if (!res.ok) return;
+                const settings = await res.json();
+                for (const s of settings) {
+                    const elId = biomeIdMap[s.biome];
+                    if (elId) {
+                        document.getElementById(elId).innerText =
+                            `${biomeNameMap[s.biome]} (скорость = ${s.speed})`;
+                    }
+                }
+            } catch (e) {
+                console.error('Не удалось загрузить настройки биомов', e);
+            }
+        }
+
+        loadLegend();
         generateBtn.click();
     </script>
 </body>

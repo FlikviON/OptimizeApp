@@ -1,25 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\",
+  "WorkspaceRootPath": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\kirill version\\optimizationapp\\optimizationapp\\controllers\\biomesettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fesaw\\AppData\\Local\\SourceServer\\dbb1038764bb4309061f9a7985b763a123274fd1b6cd9a2814813adb8a55a3f5\\OptimizationApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\my version\\optimizationapp\\optimizationapp\\controllers\\biomesettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|solutionrelative:optimizationapp\\controllers\\biomesettingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\kirill version\\optimizationapp\\optimizationapp\\controllers\\mappathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\my version\\optimizationapp\\optimizationapp\\controllers\\mappathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|solutionrelative:optimizationapp\\controllers\\mappathcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\kirill version\\optimizationapp\\optimizationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\my version\\optimizationapp\\optimizationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|solutionrelative:optimizationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\kirill version\\optimizationapp\\optimizationapp\\models\\biomesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\my version\\optimizationapp\\optimizationapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|solutionrelative:optimizationapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\my version\\optimizationapp\\optimizationapp\\models\\biomesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|solutionrelative:optimizationapp\\models\\biomesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\kirill version\\optimizationapp\\optimizationapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|c:\\users\\fesaw\\onedrive\\desktop\\\u0443\u043D\u0438\u0432\u0435\u0440\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\android\\my version\\optimizationapp\\optimizationapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AC9A93-38C3-4632-ADEE-129D446FDDF9}|OptimizationApp\\OptimizationApp.csproj|solutionrelative:optimizationapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,71 +37,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapPathController.cs",
-              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Controllers\\MapPathController.cs",
-              "RelativeDocumentMoniker": "OptimizationApp\\Controllers\\MapPathController.cs",
-              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Controllers\\MapPathController.cs",
-              "RelativeToolTip": "OptimizationApp\\Controllers\\MapPathController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:46:28.397Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\fesaw\\AppData\\Local\\SourceServer\\dbb1038764bb4309061f9a7985b763a123274fd1b6cd9a2814813adb8a55a3f5\\OptimizationApp\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\dbb1038764bb4309061f9a7985b763a123274fd1b6cd9a2814813adb8a55a3f5\\OptimizationApp\\Program.cs",
+              "ToolTip": "C:\\Users\\fesaw\\AppData\\Local\\SourceServer\\dbb1038764bb4309061f9a7985b763a123274fd1b6cd9a2814813adb8a55a3f5\\OptimizationApp\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\dbb1038764bb4309061f9a7985b763a123274fd1b6cd9a2814813adb8a55a3f5\\OptimizationApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:21:52.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OptimizationApp\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\AppDbContext.cs",
+              "RelativeToolTip": "OptimizationApp\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:54:15.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapPathController.cs",
+              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Controllers\\MapPathController.cs",
+              "RelativeDocumentMoniker": "OptimizationApp\\Controllers\\MapPathController.cs",
+              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Controllers\\MapPathController.cs",
+              "RelativeToolTip": "OptimizationApp\\Controllers\\MapPathController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:46:28.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Program.cs",
               "RelativeDocumentMoniker": "OptimizationApp\\Program.cs",
-              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Program.cs",
+              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Program.cs",
               "RelativeToolTip": "OptimizationApp\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T19:49:59.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BiomeSettingController.cs",
-              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Controllers\\BiomeSettingController.cs",
+              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Controllers\\BiomeSettingController.cs",
               "RelativeDocumentMoniker": "OptimizationApp\\Controllers\\BiomeSettingController.cs",
-              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Controllers\\BiomeSettingController.cs",
+              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Controllers\\BiomeSettingController.cs",
               "RelativeToolTip": "OptimizationApp\\Controllers\\BiomeSettingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T19:47:40.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BiomeSetting.cs",
-              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Models\\BiomeSetting.cs",
+              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Models\\BiomeSetting.cs",
               "RelativeDocumentMoniker": "OptimizationApp\\Models\\BiomeSetting.cs",
-              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Models\\BiomeSetting.cs",
+              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Models\\BiomeSetting.cs",
               "RelativeToolTip": "OptimizationApp\\Models\\BiomeSetting.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T17:18:18.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T17:18:18.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "OptimizationApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\Kirill version\\OptimizationApp\\OptimizationApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\fesaw\\OneDrive\\Desktop\\\u0423\u041D\u0418\u0412\u0415\u0420\\6 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\Android\\My version\\OptimizationApp\\OptimizationApp\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "OptimizationApp\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
