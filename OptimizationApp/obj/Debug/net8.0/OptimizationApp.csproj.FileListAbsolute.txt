@@ -128,3 +128,9 @@ C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill ver
 C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\obj\Debug\net8.0\OptimizationApp.pdb
 C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\obj\Debug\net8.0\OptimizationApp.genruntimeconfig.cache
 C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\obj\Debug\net8.0\ref\OptimizationApp.dll
+C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\fesaw\OneDrive\Desktop\УНИВЕР\6 семестр\Android\Kirill version\OptimizationApp\OptimizationApp\obj\Debug\net8.0\OptimizationApp.MvcApplicationPartsAssemblyInfo.cs
