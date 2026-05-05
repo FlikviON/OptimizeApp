@@ -1,19 +1,25 @@
 using Microsoft.EntityFrameworkCore;
-using OptimizationApp;
+using OptimizationApp.Application.Interfaces;
+using OptimizationApp.Application.Services;
+using OptimizationApp.Domain.Interfaces;
+using OptimizationApp.Endpoints;
+using OptimizationApp.Infrastructure.Data;
+using OptimizationApp.Infrastructure.Repositories;
 using SQLitePCL;
-using System;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
 Batteries_V2.Init();
 
-builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=optimization.db"));
+
+builder.Services.AddScoped<IBiomeSettingRepository, BiomeSettingRepository>();
+builder.Services.AddScoped<IBiomeSettingService, BiomeSettingService>();
+builder.Services.AddScoped<IMapService, MapService>();
 
 var app = builder.Build();
 
@@ -30,8 +36,9 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.UseStaticFiles();
-app.MapControllers();
 app.MapGet("/", () => Results.Redirect("/index.html"));
 
+app.MapMapEndpoints();
+app.MapBiomeSettingEndpoints();
 
 app.Run();

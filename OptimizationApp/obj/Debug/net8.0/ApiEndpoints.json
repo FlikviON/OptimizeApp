@@ -16,83 +16,71 @@
     ]
   },
   {
-    "ContainingType": "OptimizationApp.Controllers.MapPathController",
-    "Method": "GenerateMap",
+    "ContainingType": "OptimizationApp.Endpoints.MapEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMapEndpoints\u003Eb__0_0",
     "RelativePath": "api/generate",
     "HttpMethod": "POST",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "OptimizationApp.Models.GenerateMapRequest",
+        "Type": "OptimizationApp.Application.DTOs.GenerateMapRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Int32[][]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
   },
   {
-    "ContainingType": "OptimizationApp.Controllers.BiomeSettingsController",
-    "Method": "GetSettings",
+    "ContainingType": "OptimizationApp.Endpoints.BiomeSettingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBiomeSettingEndpoints\u003Eb__0_0",
     "RelativePath": "api/settings",
     "HttpMethod": "GET",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[OptimizationApp.Models.BiomeSetting, OptimizationApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
   },
   {
-    "ContainingType": "OptimizationApp.Controllers.BiomeSettingsController",
-    "Method": "CreateSetting",
+    "ContainingType": "OptimizationApp.Endpoints.BiomeSettingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBiomeSettingEndpoints\u003Eb__0_2",
     "RelativePath": "api/settings",
     "HttpMethod": "POST",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "setting",
-        "Type": "OptimizationApp.Models.BiomeSetting",
+        "Type": "OptimizationApp.Domain.Entities.BiomeSetting",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "OptimizationApp.Models.BiomeSetting",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
   },
   {
-    "ContainingType": "OptimizationApp.Controllers.BiomeSettingsController",
-    "Method": "GetSetting",
+    "ContainingType": "OptimizationApp.Endpoints.BiomeSettingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBiomeSettingEndpoints\u003Eb__0_1",
     "RelativePath": "api/settings/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
@@ -103,22 +91,18 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "OptimizationApp.Models.BiomeSetting",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
   },
   {
-    "ContainingType": "OptimizationApp.Controllers.BiomeSettingsController",
-    "Method": "UpdateSetting",
+    "ContainingType": "OptimizationApp.Endpoints.BiomeSettingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBiomeSettingEndpoints\u003Eb__0_3",
     "RelativePath": "api/settings/{id}",
     "HttpMethod": "PUT",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
@@ -128,18 +112,24 @@
       },
       {
         "Name": "setting",
-        "Type": "OptimizationApp.Models.BiomeSetting",
+        "Type": "OptimizationApp.Domain.Entities.BiomeSetting",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "OptimizationApp.Controllers.BiomeSettingsController",
-    "Method": "DeleteSetting",
+    "ContainingType": "OptimizationApp.Endpoints.BiomeSettingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapBiomeSettingEndpoints\u003Eb__0_4",
     "RelativePath": "api/settings/{id}",
     "HttpMethod": "DELETE",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
@@ -148,30 +138,32 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "OptimizationApp.Controllers.MapPathController",
-    "Method": "ShortestPath",
+    "ContainingType": "OptimizationApp.Endpoints.MapEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMapEndpoints\u003Eb__0_1",
     "RelativePath": "api/shortest-path",
     "HttpMethod": "POST",
-    "IsController": true,
+    "IsController": false,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "OptimizationApp.Models.PathRequest",
+        "Type": "OptimizationApp.Application.DTOs.PathRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "OptimizationApp.Models.PathResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
